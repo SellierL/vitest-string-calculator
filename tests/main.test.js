@@ -1,10 +1,13 @@
 import { expect, test } from 'vitest'
-import { describe, expect, it } from 'vitest'
+//import { describe, expect, it } from 'vitest'
 import { add} from '../js/main.js'
-/*decrible('est of the function add()', () => {
+
+/*
+//Describe is used to group related tests together
+describle('est of the function add()', () => {
     it('return error for invalid input', () =>{
-        expect() => add ('1,\n').toThrow()
-    })
+        expect() => add ('1,\n').toThrow('Invalid input')
+    });
 });
 */
 
